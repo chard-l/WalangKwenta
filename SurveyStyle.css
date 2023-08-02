@@ -1,0 +1,67 @@
+body {
+    width: 100%;
+    margin: 0;
+    background-color: #0a0216e3;
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+  }
+  
+
+
+  h1, .p1 {
+    margin: em auto;
+    text-align: center;
+  }
+  
+  form {
+    width: 300px;
+    margin: 10px auto;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: auto;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  input, textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #fff;
+  }
+  
+  .space {
+    text-align: center;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    
+    min-width: 300px;
+  }
+  
+  .sel {
+    margin: 20px auto;
+    background-color: #0a0a23;
+    border: auto #0a0a23;
+    color: #fff;
+  }
+
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }

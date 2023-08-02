@@ -1,0 +1,37 @@
+<!DOCTYPE hmtml>
+<html lang="en">
+<link href="SurveyStyle.css" rel="stylesheet" href="styles.css">
+<head>
+    <h1 id="title">Survey Form</h1>
+  </head>
+<body>
+    <p class="p1" id="description">This is a survey form.</p>
+ </body>
+  <form id="survey-form">
+   <label for="name" id="name-label">Your Name:</label> <input name="name" id="name" type="text" placeholder="Type Your Name" required> <br>
+   <label for="email" id="email-label">Your Email:</label>
+   <input name="email" type="email" id="email" placeholder="Type Your Email" required> <br>
+   <label for="number" id="number-label">Age:</label>
+    <input name="number" type="number" id="number" min="13" max="21" placeholder="13-21">
+    <select class="sel" id="dropdown">
+      <option class="identity" value="">(Identity)
+      <option value="1">Male</option>
+      <option value="2">Female</option>
+      <option value="3">Daga</option>
+      <option value="4">Bulate</option>
+      <option value="5">Bubong</option>
+      <option value="6">Poste</option>
+    </select>
+    <fieldset class="space">
+    <input id="i" name="i-we" value="I" type="radio"> Do you want to have 3 wishes but can last FOREVER?</fieldset>
+    <fieldset>
+    <input id="we" name="i-we" value="We" type="radio"> Do you want to have 10 wishes but can only last for a YEAR?
+    </fieldset>
+    <p>What position do you sleep the best?</p> 
+    <label for="set1" ><input id="set1" class="inline" name="set1" value="nakatuwad" type="checkbox">Nakatuwad</label> <label for="set2"><input class="inline" id="set2" name="set2" value="nakatayo" type="checkbox">Nakatayo</label> <label for="set3" ><input id="set3" name="set3" class="inline" value="nakahiga" type="checkbox">Nakahiga</label>
+    <label for="bio"> <p> Write 100 words about "Why are you GAY?"</p>
+       <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like boys..."></textarea>
+        </label>
+        <input id="submit" type="submit" value="Submit"/>
+  </form>
+<html>
